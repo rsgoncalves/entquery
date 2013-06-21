@@ -1,0 +1,154 @@
+.just {
+    margin-top: 50px;
+    margin-bottom:20px;
+    padding-bottom: 50px;
+    border-bottom-color: #ccc;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    line-height: 16px;
+
+}
+
+.entailment {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+        line-height: 16px;
+
+}
+
+.ent_heading {
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 18px;
+	font-variant:small-caps;
+}
+
+.axbox {
+    padding-bottom: 10px;
+    border-bottom: #000;
+    border-bottom-width: 1px;
+}
+
+.filepath {
+	margin-top: 3em;
+	font-size: 0.7em;
+	display:block;
+	right:0px;
+	text-align:right;
+}
+
+.jcount {
+	display:block;
+	font-size: 2em;
+	text-align: right;
+	right:0px;
+	border-bottom:1px solid #333;
+	padding-bottom:5px;
+}
+
+.example, .justheading {
+    color: #000;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+}
+
+.emph {
+    font-weight: bold;
+}
+
+.dlsym {
+    font-size: 18px;
+}
+
+.axkw {
+    color: #006699;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.rkw {
+    font-weight: bold;
+    color: #cc00cc;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.bkw {
+    font-weight: bold;
+    color: #0099ff;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.nothing {
+    color: red;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.in1 {
+    margin-top: 6px;
+    display:none;
+}
+
+.in2 {
+    margin-top: 6px;
+    padding-left: 30px;
+}
+
+.in3 {
+    margin-top: 6px;
+    padding-left: 60px;
+}
+
+
+.in4 {
+    margin-top: 6px;
+    padding-left: 90px;
+}
+
+
+
+.in5 {
+    margin-top: 6px;
+    padding-left: 120px;
+}
+
+
+.in6 {
+    margin-top: 6px;
+    padding-left: 150px;
+}
+
+.in7 {
+    margin-top: 6px;
+    padding-left: 180px;
+}
+
+.in8 {
+    margin-top: 6px;
+    padding-left: 210px;
+}
+
+.in9 {
+    margin-top: 6px;
+    padding-left: 240px;
+}
+
+.in10 {
+    margin-top: 6px;
+    padding-left: 270px;
+}
+
+.in11 {
+    margin-top: 6px;
+    padding-left: 300px;
+}
+
+.in12 {
+    margin-top: 6px;
+    padding-left: 330px;
+}
