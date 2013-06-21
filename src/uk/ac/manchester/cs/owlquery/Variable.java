@@ -7,12 +7,11 @@ import org.semanticweb.owlapi.model.OWLObjectProperty;
 import uk.ac.manchester.cs.owl.justifications.isomorphism.axiomtree.AxiomTree;
 
 /**
- * Author: 	Rafael Gonçalves<br>
- *          The University Of Manchester<br>
- *          Information Management Group<br>
- * Date: 	25-Jul-2012<br><br>
+ * @author Rafael S. Goncalves <br/>
+ * Information Management Group (IMG) <br/>
+ * School of Computer Science <br/>
+ * University of Manchester <br/>
  */
-
 public class Variable {
 
 	private OWLObject obj;

@@ -48,10 +48,10 @@ import org.semanticweb.owlapi.util.SimpleShortFormProvider;
 import uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer;
 
 /**
- * Author: 	Rafael Gonçalves<br>
- *          The University Of Manchester<br>
- *          Information Management Group<br>
- * Date: 	25-Jul-2012<br><br>
+ * @author Rafael S. Goncalves <br/>
+ * Information Management Group (IMG) <br/>
+ * School of Computer Science <br/>
+ * University of Manchester <br/>
  */
 
 /**
