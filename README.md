@@ -16,13 +16,15 @@ Examples of queries formulated directly in the application:
 * ?x SubClassOf A
 * B SubClassOf p some ?y
 
-The application has the option to provide only inferred answers, as well as using an advanced entailment grammar, where variables are replaced with:
+By default, the application seeks variable replacements in the form of (complex) concepts explicit in the given ontology. Optionally, the tool can use an advanced entailment grammar where variables are replaced with:
 
 * C and D
 * C or D
 * r some C
 * r only C
 * not C
+
+Where C, D are (complex) concepts in the ontology, and r is an atomic role.
 
 
 dependencies
