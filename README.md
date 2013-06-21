@@ -30,3 +30,5 @@ Where C, D are (complex) concepts in the ontology, and r is an atomic role.
 dependencies
 --------------------
 Currently the query engine uses the reasoners: FaCT++ v1.5.3, Pellet v2.2.2, HermiT v1.3.6 and JFact v0.9, and is based on the OWL API v3.3.
+
+Note that, in order to use this in your system, you will need the appropriate FaCT++ library.
