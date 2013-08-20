@@ -2,7 +2,6 @@
 tests/*
 *.csv
 todo
-*.xml
 
 # Build #
 build/*

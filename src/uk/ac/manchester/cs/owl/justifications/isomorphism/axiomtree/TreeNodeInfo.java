@@ -12,12 +12,11 @@ import org.semanticweb.owlapi.model.OWLObjectProperty;
 import uk.ac.manchester.cs.owlquery.Variable;
 
 /**
- * Author: 	Rafael Gonçalves<br>
- *          The University Of Manchester<br>
- *          Information Management Group<br>
- * Date: 	20-May-2012<br><br>
+ * @author Rafael S. Goncalves <br/>
+ * Information Management Group (IMG) <br/>
+ * School of Computer Science <br/>
+ * University of Manchester <br/>
  */
-
 public class TreeNodeInfo {
 
 	private boolean isFixed;
