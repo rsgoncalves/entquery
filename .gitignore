@@ -5,6 +5,7 @@ todo
 
 # Build #
 build/*
+.war
 
 # SVN #
 .svn
