@@ -5,7 +5,7 @@ todo
 
 # Build #
 build/*
-.war
+*.war
 
 # SVN #
 .svn
@@ -37,3 +37,4 @@ build/*
 Icon?
 ehthumbs.db
 Thumbs.db
+/bin
