@@ -3,11 +3,12 @@
 <%@ page isErrorPage="true" errorPage="/ErrorDisplay" import="java.io.*" %>
 <%@ include file="header.html" %>
 
-
+<body>
 <div class="content">
+	<h1>&nbsp;</h1>
     <h1>Error</h1>
     <hr>
-	<h3> The following error occurred during execution:</h3>
+	<h3>The following error occurred during execution:</h3>
         <% 
         if(exception.getCause() != null) {
         	out.println(exception.toString() + ", caused by: <br>");
@@ -16,7 +17,8 @@
         else
         	out.println(exception.toString() + "<br>");
         %>
-        <br><hr>
+        <br>
+        <hr>
         <b>If the error persists (where applicable after fixing the problem), please contact the administrator.<br> 
         For bug reports include the error message, a copy of the stack trace below, and the necessary input to replicate the issue.</b>
         <br>
@@ -31,26 +33,19 @@
 		pw.close();
        		/* out.println("-->"); */
         %>
-        <br>
-        <hr>
-        <br>
-    
+        <br><hr><br>
 </div>
 
 <div class="box">
-	<small>The query processor requires one side of the query axiom to be bounded, e.g.:<br/>
-	<ul>
-	<li><i><b>?x SubClassOf A</b></i><br/></li>
-	<li><i><b>B SubClassOf p some ?y</b></i></li>
-	</ul>
-	</small>
+	<small>The code for this web application is hosted <a href="https://github.com/rsgoncalves/entquery" target="_blank">here</a>.</small>
 	<p>
-        <small>OWL API Version 
-			<%	String version = VersionInfo.getVersionInfo().getVersion();
-		    out.print(version); 
-			%>, FaCT++ v1.5.3, Pellet v2.2.2, HermiT v1.3.6 and JFact v0.9.
+		<small>Powered by the <a href="http://owlapi.sourceforge.net/" target="_blank">OWL API</a> 
+		<%
+			String version = VersionInfo.getVersionInfo().getVersion().trim();
+			out.print("v" + version);
+		%>, FaCT++ v1.5.3, Pellet v2.2.2, HermiT v1.3.6 and JFact v0.9.
 		</small>
 	</p>
 </div>
-
-<%@ include file="footer.html" %>
+</body>
+</html>

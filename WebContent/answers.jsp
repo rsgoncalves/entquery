@@ -14,7 +14,10 @@
 <%@ include file="header.html"%>
 <script type="text/javascript" src="script.js"></script> 
 
-<h1>Query Results</h1>
+<body>
+<div class="content">
+	<h1>&nbsp;</h1>
+	<h1>Query Results</h1>
 <%
 	try {
 		List<QueryAnswer> answers = (List<QueryAnswer>) session.getAttribute("answers");
@@ -94,5 +97,18 @@
 		System.out.println("Serializable Exception");
 	}
 %>
+</div>
 
-<%@ include file="footer.html"%>
+<div class="box">
+	<small>The code for this web application is hosted <a href="https://github.com/rsgoncalves/entquery" target="_blank">here</a>.</small>
+	<p>
+		<small>Powered by the <a href="http://owlapi.sourceforge.net/" target="_blank">OWL API</a> 
+		<%
+			String version = VersionInfo.getVersionInfo().getVersion().trim();
+			out.print("v" + version);
+		%>, FaCT++ v1.5.3, Pellet v2.2.2, HermiT v1.3.6 and JFact v0.9.
+		</small>
+	</p>
+</div>
+</body>
+</html>

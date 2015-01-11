@@ -7,7 +7,8 @@ University of Manchester
 */
 
 body {
-    background: #fff url(images/logoleft.gif) no-repeat 9px 51px;
+    background: #fff url(../images/logomanchester.png) no-repeat 5px 0px;
+    background-size: 150px 139px;
     font-size: 12px;
     font-family: Verdana, Helvetica, Arial, sans-serif; 
     color: #666666;
@@ -107,7 +108,6 @@ th {
 	border-top: 1px solid #C1DAD7;
 	text-align: left;
 	padding: 6px 6px 6px 12px;
-	/*background: #CAE8EA url(images/bg_header.jpg) no-repeat;*/
 }
 
 th.normaladd {
@@ -273,7 +273,6 @@ tr {
     background: #fff;
     margin-left: 60px;
     margin-right: 60px;
-    
 }
 
 #text {
