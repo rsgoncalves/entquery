@@ -3,7 +3,7 @@ entquery
 
 #### a simple Web-based query interface using extended entailment regimes ####
 
-A demo instance is available [here](http://owl.cs.manchester.ac.uk/entquery).
+A demo instance is available [here](http://entquery-rsgtools.rhcloud.com/).
 
 
 basics
