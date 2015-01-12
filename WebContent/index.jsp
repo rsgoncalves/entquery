@@ -27,7 +27,7 @@ function setSampleURLs() {
             <h3>Source Ontology</h3>
             <p>Browse for your ontology <b>file</b>, or enter a <b>URL</b> for the ontology to be queried.</p>
             <label>
-                <textarea rows="3" cols="120" name="ont" id="ont"></textarea>
+                <textarea rows="3" cols="100" name="ont" id="ont"></textarea>
             </label>
             <label>
             	<br/>
@@ -41,7 +41,7 @@ function setSampleURLs() {
                (in <b>Manchester syntax</b>) with entity names as declared in the input, and variables as, e.g. '?x'.<br/>
             </p>
             <label>
-               	<textarea rows="5" cols="120" name="queries" id="queries"></textarea>
+               	<textarea rows="5" cols="100" name="queries" id="queries"></textarea>
             </label>
             <label>
             	<br/>
@@ -78,8 +78,12 @@ function setSampleURLs() {
 		<small>Powered by the <a href="http://owlapi.sourceforge.net/" target="_blank">OWL API</a> 
 		<%
 			String version = VersionInfo.getVersionInfo().getVersion().trim();
-			out.print("v" + version);
-		%>, FaCT++ v1.5.3, Pellet v2.2.2, HermiT v1.3.6 and JFact v0.9.
+			out.print("v" + version.substring(0, version.indexOf("-")));
+		%>, and reasoners: 
+			<a href="https://code.google.com/p/factplusplus/" target="_blank">FaCT++</a> v1.5.3, 
+			<a href="http://clarkparsia.com/pellet/" target="_blank">Pellet</a> v2.2.2, 
+			<a href="http://hermit-reasoner.com/" target="_blank">HermiT</a> v1.3.6, and 
+			<a href="http://jfact.sourceforge.net/" target="_blank">JFact</a> v0.9.
 		</small>
 	</p>
 </div>		
