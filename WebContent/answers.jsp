@@ -58,7 +58,7 @@
 					out.println("<tr><td><b>" + counter + "</b>");
 					if(!atomic)
 						out.println("<div style=\"display:inline;\" class=\"note\" " +
-							"onmouseover=\"tooltip.show('Not acquirable via OPPL or SPARQL-OWL');\" onmouseout=\"tooltip.hide();\"><sup>[*]</sup");
+							"onmouseover=\"tooltip.show('Not acquirable via OPPL or SPARQL-OWL');\" onmouseout=\"tooltip.hide();\"><sup>[*]</sup>");
 					out.println("</td><td>" + htmlAx + "</td>");
 
 					Set<Explanation<OWLAxiom>> justs = a.getJustifications(ax);
